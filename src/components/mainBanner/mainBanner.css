@@ -1,0 +1,147 @@
+.main-banner {
+    background-image: url('../../images/main-bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px 0 80px 0;
+    position: relative;
+  }
+  
+  .banner-content {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+  }
+  
+  .banner-tagline {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .banner-title {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  .banner-year {
+    color: #00d3b4;
+    font-weight: 800;
+  }
+  
+  .banner-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  
+  .banner-details li {
+    color: white;
+    list-style: none;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon {
+    margin-right: 8px;
+  }
+  
+  .icon-location {
+    display: inline;
+  }
+  
+  .custom-register-btn {
+    background-color: #ff3399;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    z-index: 10;
+    position: relative;
+  }
+  
+  .custom-register-btn:hover {
+    background-color: #e60073;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 991.98px) {
+    .banner-title {
+      font-size: 40px;
+    }
+    .custom-register-btn {
+      padding: 10px 24px;
+      font-size: 16px;
+      width: 30%;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .banner-title {
+      font-size: 32px;
+    }
+    
+    .banner-tagline {
+      font-size: 18px;
+    }
+    
+    .banner-details li {
+      font-size: 14px;
+    }
+    
+    .custom-register-btn {
+      padding: 10px 24px;
+      font-size: 16px;
+      width: 30%;
+    }
+  }
+  
+  @media (max-width: 575.98px) {
+    .main-banner {
+      min-height: 30vh;
+    }
+  
+    .banner-tagline {
+      font-size: 18px;
+    }
+    
+    .banner-title {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    
+    .custom-register-btn {
+      font-size: 14px;
+      width: 45%;
+    }
+    
+    .icon-location {
+      display: none;
+      margin-bottom: 200px;
+    }
+    .icon-schedule {
+      font-weight: bold;
+      color: #e60073;
+    }
+  
+    .banner-details {
+      padding: 10px 50px;
+    }
+  
+    .main-banner {
+      background-position: right;
+    }
+    
+  }

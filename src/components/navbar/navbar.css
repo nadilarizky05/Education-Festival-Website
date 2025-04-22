@@ -1,0 +1,79 @@
+.background {
+    background-color: #100025;
+    transition: all 0.3s ease;
+}
+
+.custom-toggler-icon {
+    background-color: white;
+    width: 25px;
+    height: 2px;
+    display: block;
+    position: relative;
+    margin: 5px 0;
+}
+
+.custom-toggler-icon::before,
+.custom-toggler-icon::after {
+    content: '';
+    background-color: white;
+    width: 25px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    left: 0;
+}
+
+.custom-toggler-icon::before {
+    top: -8px;
+}
+
+.custom-toggler-icon::after {
+    top: 8px;
+}
+  
+  .logo {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .brand-text {
+    color: white;
+    font-size: 12px;
+    line-height: 1.1;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .daftar-btn {
+    background-color: #ff1b8d; /* warna pink dari tombol */
+    border: none !important;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 8px 20px;
+    margin-left: 15px;
+  }
+
+  .daftar-btn:hover {
+    background-color: #00d3b4;
+    border-color: #00d3b4;
+    color: white;
+    transition: 0.5s;
+    margin-top: -5px;
+  }
+  
+  .navbar-toggler {
+    border-color: rgba(255,255,255,0.5);
+  }
+  
+  @media (max-width: 991.98px) {
+    .navbar-collapse {
+      margin-top: 15px;
+    }
+    
+    .daftar-btn {
+      margin-top: 10px;
+      margin-left: 0;
+    }
+  }

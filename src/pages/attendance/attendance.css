@@ -1,0 +1,79 @@
+.bg-header-banner {
+    background-image: url('../../images/main-bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-fullscreen {
+    height: 100%;
+    min-height: 400px;
+}
+
+.full-screen {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.home-wrapper-alt{
+    display: table-cell;
+    vertical-align: middle;
+}
+  
+  /* .home-wrapper {
+    line-height: 54px;
+    margin-top: 0;
+    font-weight: bold;
+  }
+  
+  .home-wrapper h4 {
+    line-height: 26px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-weight: normal;
+  } */
+
+.font-helloween {
+    font-family: "festival";
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+  .form-control {
+    box-shadow: none !important;
+    border: 2px solid #dddddd;
+    height: 44px;
+  }
+
+  .font-helloween-h2 {
+    font-family: "festival";
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn-custom {
+    background-color: #ff000e;
+  }
+  
+  .btn-custom:hover {
+    border: 3px solid white;
+    color: white;
+  }
+  
+
+@media (max-width: 420px) {
+
+    .home-wrapper h1 {
+      /* font-size: 24px; */
+      line-height: 32px;
+    }
+}

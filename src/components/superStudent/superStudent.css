@@ -1,0 +1,31 @@
+.superstudent {
+    position: relative;
+    z-index: 1;
+    background-image: url("../../images//SuperStudent2.jpg");
+    background-position: center right;
+    /* background-size: right; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 90px 0;
+  }
+  
+  @media ( width < 768px) {
+    .superstudent {
+      background-image: url("../../images/superstudent.jpg");
+      background-position: center;
+    }
+  }
+  
+  h1, h5 {
+    color: white;
+  }
+  
+  .btn-a{
+    background-color: #00acee;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  

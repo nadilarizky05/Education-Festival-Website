@@ -1,0 +1,75 @@
+.title-form {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Responsive City Selection Styles */
+.package-section {
+    display: flex;
+    flex-direction: column;
+    /* gap: 1rem; */
+}
+
+.package-pricing {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* gap: 1rem; */
+}
+
+.city {
+    margin-left: 20px;
+}
+
+.city-selection {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 1rem; */
+}
+
+.city-column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    /* gap: 0.5rem; */
+}
+
+@media (max-width: 768px) {
+    .package-pricing {
+        flex-direction: column;
+    }
+
+    .city {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .city-selection {
+        flex-direction: column;
+    }
+
+    .city-column {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .city-column label {
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .city {
+        margin-left: 0px;
+        padding-top: 10px;
+    }
+    .city-column {
+        flex-direction: column;
+    }
+
+    .city-column label {
+        padding-right: 100px;
+        /* margin-bottom: 0.5rem; */
+    }
+}

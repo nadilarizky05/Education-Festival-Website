@@ -1,0 +1,168 @@
+
+/*================================================
+Subscribe CSS
+=================================================*/
+.subscribe-area {
+    text-align: center;
+    margin: 50px 0px;
+  }
+  
+  #daftar {
+    padding-top: 100px;
+    margin-top: -100px;
+  }
+  
+  .subscribe-area::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 72%;
+    content: "";
+    z-index: -1; 
+  }
+  .jarak {
+    padding-bottom: 10px;
+  }
+  
+  /* ================================================ */
+  
+  .sekolah {
+    padding-bottom: 10px;
+    /* margin-left: 266px; */
+    width: 100%;
+  }
+  
+  /* .jarak2 {             
+    justify-content: center;   
+    align-items: center;       
+    width: 100%;              
+    margin-bottom: 10px;
+  }
+  
+  .jarak2 .typeahead {
+    width: 100%;                
+    max-width: 100%;           
+    margin-bottom: 10px;
+  }  */
+  
+  /* .jarak2 {
+    margin-bottom: 10px;   
+    margin-left: 267px; 
+    display: flex;
+    max-width: 100%;     
+  } */
+  
+  /* Tablet */
+  @media (max-width: 1199px) {
+    .jarak2 { 
+        margin-left: 160px; 
+    }
+  }
+  
+  
+  /* ============================================= */
+  .subscribe-area .subscribe-inner {
+    padding: 100px 50px;
+  }
+  
+  @media (max-width: 768px) {
+    .container2 {
+        /* width: 50%; */
+    }
+  }
+  
+  .form-control {
+    border: solid 2px #000;
+    height: 60px;
+    margin: 0;
+    box-shadow: 0 8px 6px -6px rgba(50, 51, 51, 0.4);
+    z-index: 1;
+    max-width: 1200px;
+    /* width: 50%; */
+  }
+  
+  .form-control typeahead{
+    /* border: solid 2px #000; */
+    height: 60px;
+    margin: 10px;
+    /* width: 50%; */
+    box-shadow: 0 8px 6px -6px rgba(50, 51, 51, 0.4);
+    z-index: 1; 
+  }
+  
+  .subscribe-area .subscribe-inner .btn {
+    right: 0;
+    top: 0;
+    text-transform: uppercase;
+    z-index: 1;
+  }
+  
+  .subscribe-area .subscribe-inner .rbt {
+    width: 100%;
+  }
+  
+  .subscribe-area .subscribe-inner .rbt .form-control {
+    height: 60px; 
+    border: solid 2px #000; 
+    box-shadow: 0 8px 6px -6px rgba(50, 51, 51, 0.4); 
+  }
+
+  .form-group {
+    margin-bottom: 30px;
+  }
+  
+  textarea.form-control {
+    min-height: auto !important;
+    height: auto;
+  }
+
+  
+/*form-control*/
+.form-control {
+    height: 50px;
+    padding: 0px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    /* border: 2px solid #000000; */
+    border-radius: 0;
+    transition: 0.5s;
+    width: 100%;
+    max-width: 100%;
+    /* margin-left: auto;
+    margin-right: auto;*/
+    /* display: block;  */
+  }
+  
+  @media (min-width: 768px) {
+    .form-control {
+        /* width: 50%; */
+    }
+  }
+  .form-control:hover, .form-control:focus, .form-control.active {
+    box-shadow: unset;
+    border-color: #FF2D55;
+  }
+  
+  .button1{
+    margin: 20px 0 70px 0;
+  }
+
+  .area{
+    margin-bottom: 100px;
+  }
+
+  .btn3 {
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    box-shadow: 0 8px 6px -6px rgba(50, 51, 51, 0.4);
+    border: none;
+    padding: 15px 30px;
+    border-radius: 0;
+    transition: 0.5s;
+    background-color: #FF2D55;
+    width: 50%; 
+    margin: 20px auto 70px auto;
+    display: block;
+  }

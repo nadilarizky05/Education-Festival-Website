@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import NavbarComponent from "./components/navbar/navbar";
+import MainBanner from "./components/mainBanner/mainBanner";
+import CountDown from "./components/countDown/countDown";
+import Form from "./components/form/form"
+import About from "./components/about/about"
+import Milestone from "./components/milestone/milestone";
+import Speakers from "./components/speakers/speaker";
+import Schedule from "./components/schedule/schedule";
+import SuperStudent from "./components/superStudent/superStudent";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavbarComponent />
+      <MainBanner />
+      <CountDown />
+      <Form />
+      <About />
+      <Milestone />
+      <Speakers />
+      <Schedule />
+      <SuperStudent />
+      <Footer />
+    </>
   );
 }
 

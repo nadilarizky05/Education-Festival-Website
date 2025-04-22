@@ -1,0 +1,204 @@
+/* Speakers Section Styling */
+.speakers-section {
+    padding: 20px 0;
+    overflow: hidden;
+    margin-bottom: 60px;
+  }
+  
+  .section-title {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 40px;
+    padding-top: 80px;
+    text-align: center;
+  }
+  
+  .section-title span {
+    color: #FF2D55;
+    letter-spacing: 1px;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+  }
+  
+  .section-title h2 {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .section-title .bar {
+    position: relative;
+    width: 20px;
+    height: 4px;
+    background: #f6048f;
+    display: block;
+    margin: 15px auto;
+  }
+  
+  .section-title .bar::after, 
+  .section-title .bar::before {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    content: "";
+  }
+  
+  .section-title .bar::after {
+    width: 25px;
+    background: #00d3b4;
+    right: -29px;
+  }
+  
+  .section-title .bar::before {
+    background: #6dcbd8;
+    width: 30px;
+    right: -63px;
+  }
+  
+  .bg-title {
+    color: rgba(73, 57, 231, 0.05);
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: -1;
+    margin-top: -10px;
+    text-align: left;
+  }
+  
+  /* Speakers Container */
+  .speakers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 15px;
+  }
+  
+  .speaker-card {
+    width: 200px;
+    margin-bottom: 30px;
+  }
+  
+  .elkevent-single-speakers {
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    height: 100%;
+  }
+  
+  .speaker-image {
+    width: 100%;
+    height: auto;
+    transition: 0.5s;
+    object-fit: cover;
+    aspect-ratio: 2/3;
+  }
+  
+  .speakers-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    padding: 15px;
+    transition: 0.3s;
+    opacity: 1;
+    visibility: visible;
+    text-align: center;
+  }
+  
+  .speakers-content h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #0d1028;
+  }
+  
+  .speakers-content span {
+    display: block;
+    font-size: 14px;
+    color: #FF2D55;
+  }
+  
+  .elkevent-single-speakers:hover .speaker-image {
+    transform: scale(1.1);
+    filter: grayscale(70%);
+  }
+  
+  .elkevent-single-speakers:hover .speakers-content {
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+  
+  /* Mobile Responsive Styles */
+  @media (max-width: 768px) {
+    .section-title {
+      padding-top: 60px;
+    }
+    
+    .section-title h2 {
+      font-size: 32px;
+    }
+    
+    .bg-title {
+      font-size: 60px;
+      line-height: 60px;
+    }
+    
+    .speaker-card {
+      width: 160px;
+    }
+    
+    .speakers-content h3 {
+      font-size: 16px;
+    }
+    
+    .speakers-content span {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .section-title {
+      padding-top: 50px;
+    }
+    
+    .section-title h2 {
+      font-size: 28px;
+    }
+    
+    .bg-title {
+      font-size: 40px;
+      line-height: 40px;
+      margin-top: 0;
+    }
+    
+    .speaker-card {
+      width: 140px;
+    }
+    
+    .speakers-content {
+      padding: 10px;
+    }
+    
+    .speakers-content h3 {
+      font-size: 14px;
+      margin-bottom: 2px;
+    }
+    
+    .speakers-content span {
+      font-size: 11px;
+    }
+    .speakers-section {
+      margin-bottom: 20px;
+    }
+  }
