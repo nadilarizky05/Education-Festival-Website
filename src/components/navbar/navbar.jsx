@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Logo from '../../images/logo.svg';
 import '../navbar/navbar.css';
 
+
 function NavScrollExample() {
   return (
     <Navbar expand="lg" className='background'>
