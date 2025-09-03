@@ -1,7 +1,7 @@
 import NavbarComponent from "./components/navbar/navbar";
 import MainBanner from "./components/mainBanner/mainBanner";
 import CountDown from "./components/countDown/countDown";
-import Form from "./components/form/form"
+// import Form from "./components/form/form"
 import About from "./components/about/about"
 import Milestone from "./components/milestone/milestone";
 import Speakers from "./components/speakers/speaker";
