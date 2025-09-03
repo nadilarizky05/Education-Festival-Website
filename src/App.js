@@ -15,7 +15,7 @@ function App() {
       <NavbarComponent />
       <MainBanner />
       <CountDown />
-      <Form />
+      {/* <Form /> */}
       <About />
       <Milestone />
       <Speakers />
